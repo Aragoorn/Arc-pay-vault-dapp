@@ -1,7 +1,4 @@
 # ArcPay Automated Vault
-<img width="744" height="627" alt="Screenshot (3348)" src="https://github.com/user-attachments/assets/51fcb73d-92d2-4346-b6e2-b911704f93a5" />
-<img width="793" height="743" alt="Screenshot (3346)" src="https://github.com/user-attachments/assets/3b2883bc-5080-47b4-a290-e942e15c5c46" />
-<img width="831" height="751" alt="Screenshot (3345)" src="https://github.com/user-attachments/assets/4dda4fc5-1439-4a28-9294-ffaff0114216" />
 
 A USDC vault on [Arc Testnet](https://docs.arc.io) with one-transaction batch payments and automated payroll that only a registered [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) agent can release, after the contract re-checks every rule onchain.
 
