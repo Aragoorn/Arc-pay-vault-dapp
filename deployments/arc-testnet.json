@@ -1,0 +1,25 @@
+{
+  "network": "Arc Testnet",
+  "chainId": 5042002,
+  "explorer": "https://explorer.testnet.arc.io",
+  "contracts": {
+    "ArcPayVault": {
+      "address": "0x405438ec99cda31b5ece7788d1f96cd12cd376c6",
+      "deployTx": "0x03df0e228a8f9d7aaf1cfb6287c4ec7a54f9bbc5887771e2dc8c6dc399c335a3",
+      "deployBlock": 70910984,
+      "compiler": "solc 0.8.28, optimizer 200 runs, evm cancun",
+      "verified": true,
+      "constructorArgs": {
+        "initialOwner": "0x5B12Ce46C7194aD57d143bC22847224047b1Ef42",
+        "usdc": "0x3600000000000000000000000000000000000000",
+        "identityRegistry": "0x8004A818BFB912233c491871b3d84c89A494BD9e"
+      }
+    }
+  },
+  "superseded": [
+    {
+      "address": "0xb5b54835bbfe15163a11abd91dd0dbb967e5ee35",
+      "note": "First deployment, replaced after the security review. Never held funds."
+    }
+  ]
+}
